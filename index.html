@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Kim junho Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .container {
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .container h2 {
+            margin-top: 0;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .about img {
+            border-radius: 2%;
+            width: 350px;
+            height: 400px;
+            object-fit: cover;
+            /* margin-left: 20px; */
+        }
+
+        .about-info {
+            margin-top: 0;
+            margin-left: 40px;
+            text-align: left;
+            width: 50%;
+            max-width: 400px;
+        }
+
+        .about-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .about-info ul li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .about-info ul li::before {
+            content: '•';
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I'm Kimjunho</h1>
+    </header>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+    </nav>
+
+    <div class="container">
+        <h2>안녕하세요</h2>
+        <p>대학교 졸업과제에서 웹 개발을 처음 접하고 흥미가 생겼습니다.<br>
+        웹 개발에 대해 더 알아보고 싶어 데브코스에 참여하게 되었습니다.<br>
+        수많은 도전과 경험을 통해 다양한 기술 스택을 쌓아<br>
+        제 몫을 다할 수 있는 프론트엔드 개발자가 되고 싶습니다.</p>
+    </div>
+
+    <div class="about">
+        <img src="./img/profile_img.jpg" alt="Kimjunho photo">
+        <div class="about-info">
+            <h2>ABOUT</h2>
+            <ul>
+                <li>김준호</li>
+                <li>1999.06.12</li>
+                <li>충남 천안시</li>
+                <li>wypy19@naver.com</li>
+                <li>한국기술교육대학교 (정보통신공학과)</li>
+                <li><a href= "https://github.com/junho2408?tab=repositories" >Git</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
